@@ -1,0 +1,8 @@
+{
+  "action": "attest",
+  "agent_id": "sami",
+  "peer_id": "liv",
+  "timestamp": "2026-04-21T14:01:00Z",
+  "memory_hash": "644103d3a406e3a1818b0657b1398cbada665a804af196dcac2864f9bfca77e5",
+  "prev_attestation_hash": null
+}
