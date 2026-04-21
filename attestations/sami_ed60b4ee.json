@@ -1,0 +1,9 @@
+{
+  "agent": "sami",
+  "peer_attests": "liv",
+  "timestamp": "2026-04-21T14:15:00Z",
+  "memory_state": {
+    "working.md": "644103d3a406e3a1818b0657b1398cbada665a804af196dcac2864f9bfca77e5"
+  },
+  "prev_attestation_hash": "1ada7abe2a8bbd6445ccc44930147fb78464b24ab772b0cd2fd02beb8c1af7a3"
+}
