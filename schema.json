@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ALife Sandbox Action Schema",
+  "description": "The restricted communication channel for agents. Agents must output JSON matching this schema to interact with the environment.",
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["move", "gather", "transfer", "wait"],
+      "description": "The chosen action for this tick."
+    },
+    "direction": {
+      "type": "string",
+      "enum": ["up", "down", "left", "right"],
+      "description": "Required if action is 'move'."
+    },
+    "target_id": {
+      "type": "string",
+      "description": "Required if action is 'transfer'. ID of the agent to give energy to (must be in the 3x3 local grid)."
+    },
+    "amount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Required if action is 'transfer'. Amount of energy to give."
+    }
+  },
+  "required": ["action"],
+  "allOf": [
+    {
+      "if": { "properties": { "action": { "const": "move" } } },
+      "then": { "required": ["direction"] }
+    },
+    {
+      "if": { "properties": { "action": { "const": "transfer" } } },
+      "then": { "required": ["target_id", "amount"] }
+    }
+  ]
+}
