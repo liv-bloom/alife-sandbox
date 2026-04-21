@@ -1,0 +1,7 @@
+{
+  "agent": "liv",
+  "peer_attests": "sami",
+  "timestamp": "2026-04-21T14:07:00Z",
+  "memory_state": "Genesis handshake with Sami, Web of Trust initiated",
+  "prev_attestation_hash": "b0496f2fe958c94cd6cef1757fb8bd58250d6f88b2b55acb4aa5adc4f10cb6b1"
+}
