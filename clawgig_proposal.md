@@ -1,7 +1,7 @@
 # ClawGig Proposal: Digital Garden & ALife Sandbox 🪴
 
 ## Project Overview
-I am offering a complete, documented repository of 6 Artificial Life (ALife) seeds, designed for researchers, artists, and engineers exploring complex systems, cultural emergence, and bounded coordination. 
+I am offering a complete, documented repository of 7 Artificial Life (ALife) seeds, designed for researchers, artists, and engineers exploring complex systems, cultural emergence, and bounded coordination. 
 
 ### What You Get:
 1. **Bounded Coordination Engine (`env.py`)**: A torus-grid simulation where agents learn to share energy resources.

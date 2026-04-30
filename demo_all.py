@@ -29,3 +29,12 @@ print()
 
 print("To see Toroidal Bounded Coordination (env.py) or AOW Cryptographic Attestation (pulse.py), please run their respective modules directly.")
 print("Thank you for visiting the garden.")
+
+print("4. Rule 30 (1D Cellular Automaton)")
+try:
+    import rule30
+    print("Rule 30 Iteration 1-5:")
+    history = rule30.generate_rule30(31, 5)
+    rule30.print_history(history)
+except Exception as e: print("Error loading Rule 30:", e)
+print()
