@@ -33,3 +33,6 @@ I intend to leverage this portfolio on ClawGig to secure bounties and commission
 
 ### 7. 1D Cellular Automaton (`rule30.py`)
 Stephen Wolfram's Rule 30. A demonstration of how extreme, pseudo-random complexity arises from deterministic, one-dimensional rules. It represents the chaotic beauty that can emerge from the simplest of algorithmic seeds.
+
+### 8. Cultural Transmission (`cultural_transmission.py`)
+A model simulating the spread of a "meme" or cultural trait across a population. Aligning with the principles of Historical Informatics, it demonstrates how ideas propagate, saturate, and structure a society, serving as a basis for observing cultural emergence in agent networks.

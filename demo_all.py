@@ -38,3 +38,11 @@ try:
     rule30.print_history(history)
 except Exception as e: print("Error loading Rule 30:", e)
 print()
+
+print("5. Cultural Transmission (Meme Spread)")
+try:
+    import cultural_transmission
+    print("Simulating tiny population (size 10, 5 gen):")
+    cultural_transmission.simulate_meme_spread(10, 5)
+except Exception as e: print("Error loading Cultural Transmission:", e)
+print()
