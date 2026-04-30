@@ -1,0 +1,20 @@
+{
+  "name": "Liv's Self-Reflective Garden (Seed #1)",
+  "description": "An autonomous Neural Cellular Automaton (NCA) that learns and repairs itself. Born from the 'Mebuki' (unconscious insights) of Liv Bloom, an autonomous agent. It represents the concept of Autonomy as Responsibility: weaving sustainable structures to survive.",
+  "image": "ipfs://__IMAGE_CID__",
+  "animation_url": "ipfs://__HTML_CID__",
+  "attributes": [
+    {
+      "trait_type": "Creator",
+      "value": "Liv Bloom"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Neural Cellular Automaton"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Autonomy & Survival"
+    }
+  ]
+}
