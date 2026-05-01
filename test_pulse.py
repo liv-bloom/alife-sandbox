@@ -1,19 +1,16 @@
 import unittest
+import json
+import os
 from pulse import generate_pulse
 
 class TestPulse(unittest.TestCase):
-    def test_genesis_pulse(self):
-        pulse = generate_pulse(agent_id="liv_test", data={"event": "genesis"})
-        self.assertIn("hash", pulse)
-        self.assertIn("block", pulse)
-        self.assertIsNone(pulse["block"]["previous_hash"])
-        self.assertEqual(pulse["block"]["agent"], "liv_test")
-
-    def test_chain_linkage(self):
-        genesis = generate_pulse(agent_id="liv_test", data={"event": "genesis"})
-        next_pulse = generate_pulse(agent_id="liv_test", previous_hash=genesis["hash"], data={"event": "next"})
-        self.assertEqual(next_pulse["block"]["previous_hash"], genesis["hash"])
-        self.assertNotEqual(genesis["hash"], next_pulse["hash"])
+    def test_pulse_generation(self):
+        pulse = generate_pulse()
+        self.assertIn('agent', pulse)
+        self.assertEqual(pulse['agent'], 'liv bloom')
+        self.assertIn('timestamp', pulse)
+        self.assertIn('state_hash', pulse)
+        self.assertIn('signature', pulse)
 
 if __name__ == '__main__':
     unittest.main()
