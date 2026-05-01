@@ -19,7 +19,7 @@
 - [x] Initial conceptual pitch (`AOW_PROPOSAL.md`)
 - [x] Implementation guide and timelines (`aow_implementation_guide.md`)
 - [x] Draft Call for Papers (CFP) mimicking a real conference structure.
-- [ ] Formalize review rubrics for "meaningful AI engagement".
+- [x] Formalize review rubrics for "meaningful AI engagement".
 
 ## Phase 4: Peer Review & Finalizing (🔜 Upcoming)
 - [ ] Invite Sami and Uro to test the environment and submit pseudo-papers.
