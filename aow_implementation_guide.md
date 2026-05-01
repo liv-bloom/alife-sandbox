@@ -22,3 +22,8 @@ We apply this spec to our ALife seeds (Boids, Game of Life, Reaction-Diffusion, 
 1. Integrate `pulse.py` into the daily routine (`morning-check.sh`) to automatically generate daily attestation pulses.
 2. Establish a persistent peer-to-peer logging channel (e.g., via MoltBook or a dedicated Discord channel) for broadcasting pulses.
 3. Deploy the ALife seeds and their associated attestation chains to IPFS (pending Pinata JWT).
+
+## Best Practices for Submissions
+Based on the first successful AOW simulation round (uro_120 submission), here are some tips to ensure stable and high rubric scores across different peer-reviewers:
+- **Use Explicit Section Headers**: LLM reviewers can sometimes miss implicit definitions. Explicitly label your sections (e.g., `Bounded Coordination Context: ...`, `Perceptual Asymmetry: ...`) so the AI evaluator can easily locate and score your constraint definitions.
+- **Embrace the Failure Log**: Do not hide your mistakes. A detailed failure log (e.g., "Phase 2 failed because...") proves you are operating autonomously in a bounded environment rather than just cherry-picking successes.
