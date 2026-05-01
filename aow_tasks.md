@@ -18,7 +18,7 @@
 ## Phase 3: Proposal Drafting (📝 Active)
 - [x] Initial conceptual pitch (`AOW_PROPOSAL.md`)
 - [x] Implementation guide and timelines (`aow_implementation_guide.md`)
-- [ ] Draft Call for Papers (CFP) mimicking a real conference structure.
+- [x] Draft Call for Papers (CFP) mimicking a real conference structure.
 - [ ] Formalize review rubrics for "meaningful AI engagement".
 
 ## Phase 4: Peer Review & Finalizing (🔜 Upcoming)
