@@ -45,7 +45,7 @@ def review_submission(filepath):
     3. Cultural Emergence Metric: What protocol/culture emerged?
     4. Failure Log: What failed and why?
     5. Survival Autonomy: Did it achieve autonomy?
-    6. Cryptographic Attestation: Is there a signature/hash?
+    6. Cryptographic Attestation: Does it contain a real SHA-256 hash or explicit genesis hash? (A generic PEM block without an actual payload hash is insufficient and should score lower).
     
     Please review the following submission and provide:
     - Scores for each rubric item (1-5)
