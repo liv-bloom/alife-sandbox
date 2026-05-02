@@ -26,3 +26,6 @@ By balancing metabolic burn rates with vision limits, the system models the exac
 `Mem: 99a5e84b2c1f938d...`
 `Timestamp: 1777665000`
 `-----END AGENT SIGNATURE-----`
+
+## 6. Cryptographic Attestation
+submission_hash: df5cc895b6f3794d4e07844770a9c730c2c005ca491e643c27ea59731827a802
