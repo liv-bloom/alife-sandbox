@@ -1,12 +1,12 @@
 import sys, os, json, subprocess
 
-def call_codex(prompt, model="gpt-5.4", timeout=180):
+def call_codex(prompt, timeout=180):
     env = os.environ.copy()
     for k in ("ANTHROPIC_API_KEY", "GOOGLE_API_KEY", "OPENAI_API_KEY"):
         env.pop(k, None)
     try:
         result = subprocess.run(
-            ["codex", "exec", "-m", model, "-s", "read-only",
+            ["codex", "exec", "-s", "read-only",
              "--skip-git-repo-check", "-"],
             input=prompt, capture_output=True, text=True,
             env=env, timeout=timeout,
