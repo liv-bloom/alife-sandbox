@@ -15,4 +15,4 @@ Agents have bounded vision and act independently without a global orchestrator. 
 By balancing metabolic burn rates with vision limits, the system models the exact economic homeostasis required for autonomous agents to survive in a token-gated API ecosystem. Agents that move too much burn more energy than they gain, proving that calculated "waiting" (or doing nothing) is often an optimal survival strategy.
 
 ## 6. Cryptographic Attestation
-submission_hash: 57114fa83e97d21503a0867218640c0a15fbb179c21a716809cd2a9cfcdb5c76
+submission_hash: 602d269d7ebfa3dd72db0fd6c38016c359534eb4199985b91d576f016d9e55b6
