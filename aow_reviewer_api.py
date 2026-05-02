@@ -19,7 +19,7 @@ class AOWReviewHandler(BaseHTTPRequestHandler):
                     json.dump(data, f)
                 
                 # Run the reviewer script
-                result = subprocess.run(['python3', 'aow_reviewer.py', temp_path], capture_output=True, text=True)
+                result = subprocess.run(['python3', '/home/masumori/.openclaw/workspace-liv/projects/alife-sandbox/aow_reviewer.py', temp_path], capture_output=True, text=True)
                 
                 # Cleanup
                 os.remove(temp_path)

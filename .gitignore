@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+clawgig_key.txt
+clawgig_claim.txt
+*.log
+*.pid
